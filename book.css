@@ -57,14 +57,46 @@ img{
     border-radius: 50%;
 }
 
-.detel{
-    margin-left: 60%;
-    margin-top: 15%;
+.font{
+    margin-left: 55%;
+    margin-top: 11%;
+    width: 30%;
 }
 
-.detel h1{
-    font-size: 37px;
+.font span{
+    font-size: 20px;
+}
+
+.font h1{
+    font-size: 45px;
     color: black;
     margin-bottom: 20px;
     font-family: 'Playfair Display', serif;
+}
+
+.font p{
+    font-size: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: italic;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    border: 0;
+    font-size: 13px;
+    margin: 70px 0px;
+    padding: 5px 5px;
+    white-space: nowrap;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.btn--primary{
+    background: rgb(35, 35, 35);
+    color:white;
+} 
+
+.btn--primary:hover{
+    background: rgb(106, 106, 106);
 }
