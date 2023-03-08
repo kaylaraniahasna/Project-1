@@ -7,14 +7,16 @@
 
 body{
     color: #2f1d17 ;
+    margin: auto;
 }
 
 .hero{
     position: relative;
     width: 100%;
     height: auto;
-    margin: auto;
     background: #fbf2e0;
+    margin: auto;
+    
 }
 
 .notif {
@@ -82,9 +84,9 @@ body{
 }
 
 .book{
-    width: 300px;
-    height: 450px;
-    margin-left: 14%;
+    width: 410px;
+    height: 550px;
+    margin-left: 12%;
     margin-top: 5%;
 }
 
@@ -128,9 +130,9 @@ img{
 
 .font{
     position: relative;
-    margin-top: 8%;
-    width: 39%;
-    margin-left: 14%;
+    margin-top: 10%;
+    width: 45%;
+    margin-left: 10%;
 }
 
 .desc span{
@@ -138,16 +140,17 @@ img{
 }
 
 .desc h1{
-    font-size: 45px;
+    font-size: 46px;
     color: black;
     margin-bottom: 20px;
     font-family: 'Playfair Display', serif;
 }
 
 .desc p{
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'IBM Plex Sans', sans-serif;
     font-style: italic;
+    width: 90%;
 }
 
 .btn{
@@ -156,7 +159,7 @@ img{
     border-radius: 40px;
     border: 0;
     font-size: 13px;
-    margin: 70px 0px;
+    margin-top: 50px;
     padding: 5px 5px;
     white-space: nowrap;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -261,14 +264,45 @@ a{
     background-color: #ddd;
 }
 
-.perkotakkan {
-    width: auto;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
-    background-color: #f1e5cf;
-    margin: 50px 30px 20px 30px;
-    border-radius: 20px;
+.line {
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    margin-top: 55px;
+}
+
+.deskripsibook{
+    position: relative;
+    width: 37%;
+    margin-left: 14%;
+    margin-top: -2%;
+}
+
+.deskripsibook h2{
+    font-size: 19px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 4%;
+}
+
+.deskripsibook p{
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.author{
+    position: relative;
+    margin-left: 40%;
+    margin-top: -142px;
+    text-align: center;
+}
+
+.author p{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 28px;
+    font-family: 'Lora', serif;
+}
+
+.pancingan{
+    margin-top: 10%;
+    color: transparent  ;
 }
